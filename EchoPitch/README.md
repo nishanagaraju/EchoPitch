@@ -1,94 +1,123 @@
-<div align="center">
-
-# EchoPitch 🚀
+# 🚀 EchoPitch
 
 ### Turn your ideas into a plan you can pitch.
 
-A student-focused startup workspace to organise business ideas, build a business plan, track preparation milestones and practise a pitch.
+<p align="center">
+  <strong>A student-focused startup workspace to turn early ideas into structured business plans, practise pitches, and prepare for the entrepreneurial journey.</strong>
+</p>
 
-![EchoPitch hero artwork](public/ai-student.png)
+<p align="center">
+  <img src="public/ai-student.png" alt="EchoPitch hero artwork" width="85%">
+</p>
 
-**React · Vite · JavaScript · LocalStorage · Lucide React**
+<p align="center">
+  <img src="https://img.shields.io/badge/React-2026-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Vite-Fast%20Build-646CFF?style=for-the-badge&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/CSS-Responsive-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+  <img src="https://img.shields.io/badge/Storage-LocalStorage-2878F0?style=for-the-badge" alt="LocalStorage">
+</p>
 
-[Getting Started](#-getting-started) · [Features](#-features) · [Project Structure](#-project-structure) · [Data & Security](#-data-and-security) · [Roadmap](#-possible-next-steps)
-
-</div>
+<p align="center">
+  <a href="#-about-the-project">About</a> •
+  <a href="#-features">Features</a> •
+  <a href="#-tech-stack">Tech Stack</a> •
+  <a href="#-getting-started">Getting Started</a> •
+  <a href="#-project-structure">Structure</a>
+</p>
 
 ---
 
-## Overview
+## 💡 About the Project
 
-EchoPitch is a frontend demonstration of a student entrepreneurship platform. It brings early-stage startup planning tools into one workspace, with a simple blue-and-white interface and a responsive layout.
+**EchoPitch** is a frontend demonstration of a startup development platform designed for students and early-stage entrepreneurs.
 
-Each account starts with an empty workspace. Startup details, business plan content, checklist progress, pitch practice sessions, tutor questions and profile details are stored locally in the browser.
+It brings essential startup preparation tools into one workspace, helping users organise ideas, create business plans, track preparation milestones, and practise pitching.
 
-> **Project status:** Frontend prototype. Authentication and persistence are implemented with browser LocalStorage for demonstration purposes. This is not production-grade authentication or cloud storage.
+The platform provides nine main sections:
 
-## Features
+- 🏠 Home
+- 💼 My Startups
+- 📝 Business Plan
+- ✅ Readiness Checklist
+- 🎤 Pitch Arena
+- 🤖 AI Tutor
+- 🌱 Incubator
+- 📊 Reports
+- 👤 Profile
 
-### Student workspace
-- Nine navigation areas: Home, My Startups, Business Plan, Readiness Checklist, Pitch Arena, AI Tutor, Incubator, Reports and Profile.
-- Dashboard hero uses the supplied `public/ai-student.png` asset.
-- Responsive sidebar navigation for desktop, tablet and mobile.
-- Empty states instead of fabricated startup data or progress.
+> **Our idea:** Before you pitch your startup to the world, prepare your idea with EchoPitch.
 
-### Startup management
-- Create, edit, select, search and delete startup workspaces.
+## ✨ Features
+
+### 🧑‍💻 Student Workspace
+- Clean, responsive dashboard.
+- Nine dedicated workspace sections.
+- Startup-specific workspaces.
+- Empty states instead of fabricated progress or sample data.
+
+### 🚀 Startup Management
+- Create, edit, select, and delete startup workspaces.
+- Search and manage startup ideas.
 - Confirmation before deleting a startup.
-- Each startup has its own business plan, checklist, pitch answers and saved sessions.
 
-### Business planning
-- Structured editor for startup overview, problem, solution, customers, market opportunity, revenue, marketing, competitors, financial planning and future goals.
-- Save and continue editing after refresh.
+### 📋 Business Planning
+Organise your startup idea with structured sections covering:
+- Problem and solution
+- Target customers
+- Market opportunity
+- Revenue model
+- Marketing strategy
+- Competitor analysis
+- Financial planning
+- Future goals
 
-### Readiness checklist
-- Milestones begin unchecked.
-- Completion percentage is calculated from the student's actual checklist selections.
+### ✅ Readiness Checklist
+- Track startup preparation milestones.
+- Update checklist items.
+- Calculate progress using actual selections.
 
-### Pitch Arena
-- Eight practical pitch prompts.
-- Save answers as dated practice sessions.
-- No invented pitch scores or automatic evaluations.
+### 🎤 Pitch Arena
+- Practise with structured pitch questions.
+- Save answers and practice sessions.
+- Review saved practice history.
 
-### AI Tutor and Incubator
-- Prepared learning guidance across business ideas, planning, marketing, finance, research and pitching.
-- Tutor clearly identifies itself as guidance mode, not a connected live AI model.
-- Incubator section explains support categories and preparation steps without claiming real partnerships, mentors or funding offers.
+### 🤖 AI Tutor & 🌱 Incubator
+- Educational guidance for startup planning and pitching.
+- General incubator preparation guidance.
+- Clear distinction between demo guidance and live AI services.
 
-### Reports and profile
-- Reports calculate startup count, saved plan completion, checklist completion and saved pitch sessions from actual workspace data.
-- Edit profile details and sign out.
-- No sample accounts, sample startups or preloaded progress.
+### 📊 Reports & 👤 Profile
+- Reports based on saved workspace information.
+- Editable profile details.
+- Persistent browser-based workspace data.
 
-## Tech stack
+## 🛠️ Tech Stack
 
 | Technology | Purpose |
-| --- | --- |
-| React | Component-based user interface |
-| Vite | Development server and production build |
-| JavaScript / JSX | Application logic and components |
-| CSS | Responsive styling and design system |
+|---|---|
+| React | User interface |
+| Vite | Development and build tooling |
+| JavaScript / JSX | Application logic |
+| CSS | Styling and responsive design |
 | Lucide React | Interface icons |
 | LocalStorage | Demo account and workspace persistence |
 
-No TypeScript or Tailwind CSS is used.
-
-## Getting started
+## ⚙️ Getting Started
 
 ### Prerequisites
 
-- Node.js (current LTS version recommended)
+Make sure you have installed:
+- [Node.js](https://nodejs.org/)
 - npm
-- Visual Studio Code or another code editor
+- [Visual Studio Code](https://code.visualstudio.com/)
 
-### 1. Download or clone the repository
+### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/echopitch.git
-cd echopitch
+git clone https://github.com/nishanagaraju/EchoPitch.git
+cd EchoPitch
 ```
-
-If you downloaded the project ZIP, extract it and open the `EchoPitch` folder — the folder containing `package.json` — in VS Code.
 
 ### 2. Install dependencies
 
@@ -102,7 +131,11 @@ npm install
 npm run dev
 ```
 
-Open the local URL printed in the terminal (usually `http://localhost:5173`).
+Open the local URL shown in your terminal. It is usually:
+
+```text
+http://localhost:5173
+```
 
 ### 4. Create a production build
 
@@ -116,85 +149,58 @@ npm run build
 npm run preview
 ```
 
-## Project structure
+## 📁 Project Structure
 
 ```text
 EchoPitch/
+│
 ├── public/
-│   └── ai-student.png       # Supplied dashboard hero image
+│   └── ai-student.png
+│
 ├── src/
-│   ├── App.jsx               # App, navigation, pages and interactions
-│   ├── main.jsx              # React entry point
-│   └── styles.css            # Design system and responsive styles
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── styles.css
+│
 ├── index.html
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
+├── .gitignore
 └── README.md
 ```
 
-## Data and security
+## 🔐 Data & Security
 
-This project uses LocalStorage to demonstrate account-specific workspaces.
+EchoPitch currently uses browser LocalStorage for its frontend demonstration.
 
-- Account records are stored under an email-based key.
-- A signed-in session is stored in the browser.
-- Each new account receives an empty workspace.
-- Data remains in the same browser profile after refresh.
-- Signing out removes the active session, not the saved account data.
-- Clearing browser storage or using another browser/device will remove or not carry over this local data.
+- Workspace information is saved in the current browser.
+- Data persists after refreshing the page.
+- Different demo accounts have separate workspaces.
+- Data does not automatically synchronise across devices.
 
-**Important security limitations:** LocalStorage is accessible to scripts running on the same origin. The demo stores passwords in browser storage and does not provide server-side identity verification, secure password hashing, authorization, backups or cross-device synchronisation. Do not use a real or reused password. Before public production use, replace this demo authentication with a secure backend, hashed passwords, server-side sessions or a trusted identity provider, database authorization and appropriate security controls.
+**Important:** This is not production-grade authentication. LocalStorage is not a secure place for passwords or sensitive information. A production version would need secure backend authentication, password hashing, database storage, and appropriate access controls.
 
-## Quality checks
+## 🗺️ Future Improvements
 
-Before publishing changes, run:
+- Secure backend authentication and database integration.
+- Live AI-powered startup guidance.
+- Business plan and pitch report export.
+- Verified incubator and entrepreneurship programme listings.
+- Automated testing and deployment.
 
-```bash
-npm install
-npm run build
-```
+## 👩‍💻 Author
 
-Then manually verify:
-- Sign-up, sign-in and sign-out.
-- Two separate accounts with different workspace data.
-- Startup creation, editing, selection and deletion.
-- Business plan save and refresh persistence.
-- Checklist updates and calculated progress.
-- Pitch answer saving and session history.
-- Profile editing.
-- The supplied hero image at `/ai-student.png`.
-- Mobile navigation and narrow-screen layouts.
+**Nisha Nagaraju**
 
-## Known limitations
+Creator and sole developer of EchoPitch.
 
-- The AI Tutor is prepared educational guidance, not a live AI integration.
-- Incubator content is general guidance, not a directory of verified programmes.
-- Reports are local summaries of saved inputs, not independent startup evaluations.
-- Data is stored only in the current browser's LocalStorage.
-
-## Possible next steps
-
-- Add secure backend authentication and a database.
-- Add export to PDF for business plans and pitch notes.
-- Connect an AI service with transparent consent, usage limits and error handling.
-- Add verified incubator listings with official links and last-checked dates.
-- Add automated component and end-to-end tests.
-- Add deployment configuration and a public demo URL.
-
-## Contributing
-
-Suggestions and improvements are welcome. For substantial changes, open an issue first to discuss the proposed update, then submit a pull request with a clear description and testing notes.
-
-## License
-
-No license has been assigned yet. Add a `LICENSE` file before allowing reuse, modification or redistribution under specific terms.
+- GitHub: [@nishanagaraju](https://github.com/nishanagaraju)
+- Project: [EchoPitch](https://github.com/nishanagaraju/EchoPitch)
 
 ---
 
-<div align="center">
-
-**EchoPitch — Before you face the room, prepare with purpose.**
-
-Built as a student entrepreneurship platform project.
-
-</div>
+<p align="center">
+  <strong>EchoPitch 🚀</strong><br>
+  <em>Before you face the room, prepare with purpose.</em>
+</p>
